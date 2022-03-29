@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+#top{
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    flex:50%;
+    font-weight: 800;
+    font-size: 1.5em;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+    
+}
+
+#top h1{
+    margin: 1.5em 0;
+}
+#top span{
+    font-size: 4em;
+    line-height: 24px;
+}
+
+#bottom{
+    background: #1F2937; 
+    font-size: 14px;
+    line-height: 20px;
+    flex:50%;
+    
+}
+
+#bottom h2{
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+#bottom p{
+font-weight: 400;
+color: #D2D2D2;
+}
